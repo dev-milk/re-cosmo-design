@@ -14,6 +14,7 @@ body {
   color: #333;
   font-size: 1rem;
   font-family: "Helvetica Neue", Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo", sans-serif;
+  margin: 0;
 }
 
 .wrap {
@@ -34,6 +35,10 @@ img {
   max-width: 98%;
   height: auto;
   border-radius: 3px;
+}
+
+ul {
+  margin-top: 0;
 }
 
 li {
@@ -461,7 +466,7 @@ p {
 
 h2.wp-block-heading {
   font-weight: 600;
-  margin: 20px 0px 15px 10px;
+  margin: 30px 0px 15px 10px;
   text-align: left;
   position: relative;
 }
@@ -487,11 +492,11 @@ h2.wp-block-heading a {
 } 
 
 h3.wp-block-heading {
-  font-weight: 500;
-  font-family: "Helvetica Neue", Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo", sans-serif;
+  font-weight: 540;
   margin: 30px 0px 15px 20px;
   text-align: left;
   position: relative;
+  font-size: 1.3em;
 }
 
 h3.wp-block-heading:before {
@@ -516,7 +521,6 @@ h3.wp-block-heading a {
 
 h4.wp-block-heading {
   font-weight: 500;
-  font-family: "Helvetica Neue", Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo", sans-serif;
   margin: 30px 0px 15px 25px;
   text-align: left;
   position: relative;
@@ -544,7 +548,7 @@ h4.wp-block-heading a {
 
 
 div.wp-block-image {
-  margin-top: 36px;
+  margin: 36px;
 }
 
 .wp-element-caption {
@@ -579,7 +583,7 @@ Sidebar
 #sidebar .side-title {
   font-size: 1.6rem;
   font-family: "Baskerville", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
-  font-weight: 600;
+  font-weight: 540;
   margin: 30px 0px 20px 20px;
   text-align: left;
   position: relative;
@@ -941,3 +945,13 @@ CONTACT7
   border-radius: 3px;
 }
 
+/*-------------------------------------------
+USER ARGENT 
+-------------------------------------------*/
+input {
+  border-width: 0px;
+}
+
+button {
+  border-width: 0px;
+}
