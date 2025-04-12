@@ -8,7 +8,7 @@
               </div>
             </div>
             <div class="item">
-              <ul>
+              <ul class="footer-menu">
               <li class="list-item">
                   <a href="<?php echo esc_url(home_url()); ?>">HOME</a>
                 </li>
