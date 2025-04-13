@@ -24,13 +24,22 @@
 
 <header>
     <div class="container">
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="<?php echo esc_url(home_url()); ?>">HOME</a></li>
                 <li><a href="<?php echo esc_url(home_url('/about/')); ?>">ABOUT</a></li>         
                 <li><a href="<?php echo esc_url(home_url('/form/')); ?>">CONTACT</a></li>
             </ul>
+        </nav> -->
+
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="<?php echo esc_url(home_url()); ?>">HOME</a></li>
+            <li class="gnav-item"><a href="<?php echo esc_url(home_url('/about/')); ?>">ABOUT</a></li>
+            <li class="gnav-item"><a href="<?php echo esc_url(home_url('/form/')); ?>">CONTACT</a></li>
+          </ul>
         </nav>
+
 
         <div class="sp-menu">
             <input type="checkbox" id="sp-menu_check">

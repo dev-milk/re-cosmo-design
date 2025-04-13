@@ -153,20 +153,42 @@ nav ul {
   text-align: center;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 28px;
+.gnav-list {
+  display: flex;
+  justify-content:center;
+  list-style: none;
   padding-top: 12px;
-  height: 20px;
 }
 
-nav ul li a {
-  color: #fff;
+.gnav-item:not(:last-child) {
+  margin-right: 20px;
 }
 
-nav ul li a:hover {
-  background: linear-gradient(transparent 90%, #F2F415 30%);
-  transition : 0.6s;
+.gnav-item a {
+  position: relative;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 5px 0;
+  transition: .3s;
+  letter-spacing: .05em;
+  color: #FFF;
+}
+
+.gnav-item a:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  content: "";
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #F2F415;
+}
+
+.gnav-item a:hover:after {
+  width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
