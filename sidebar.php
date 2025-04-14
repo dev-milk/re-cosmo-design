@@ -11,8 +11,8 @@
       <img src="<?php echo get_theme_file_uri('img/x-btn.png'); ?>" alt="x"></a>
     </li>
    <li>
-    <a href="https://www.instagram.com/devcosmo_biz/">
-      <img src="<?php echo get_theme_file_uri('img/insta-btn.png'); ?>" alt="instagram">
+    <a href="https://note.com/devsugar_biz">
+      <img src="<?php echo get_theme_file_uri('img/note-btn.png'); ?>" alt="note">
      </a>
    </li>
    <li>
